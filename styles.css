@@ -1,0 +1,24 @@
+body{
+  font-family: "Verdana"
+}
+
+#app{
+  display: flex;
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;
+}
+
+#btn-jumper{
+  padding: 15px 10px;
+  background-color: #2673BF;
+  color: white;
+  border: none;
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+#place-to-land{
+  margin-top: 60px;
+  font-size: 42px;
+}
